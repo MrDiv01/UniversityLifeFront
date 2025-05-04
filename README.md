@@ -1,18 +1,23 @@
 # UniversityLifeFront – Student Accommodation Platform
 
 ## 📘 Project Overview
-UniversityLifeFront is a React Single Page Application (SPA) where students can browse and rent university-affiliated dormitories. The platform allows filtering by **university** and **country**, making it easier for international students to find accommodation that suits their academic journey.
+UniversityLifeFront is a React web application that helps students find and rent university-affiliated dormitories.  
+Users can filter dormitories by **university** and **country**, making it ideal for international students.
 
-The project includes:
-- Student-facing accommodation browsing
-- Secure login and registration
-- Admin panel for managing listings and users
+> ⚠ Note: This application is **not** a Single Page Application (SPA). Navigation between pages causes full reloads.
 
----
+## 🛠 Features
+- 🌍 Filter dormitories by country and university  
+- 🏠 Book available accommodation  
+- 🔐 User Login and Register  
+- ⚙️ Admin panel to manage listings and users  
+- 📱 Mobile & desktop responsive design  
+- 🔗 .NET Core backend API integration  
 
-## 🚀 How to Run the Project
+## 🚀 How to Run
 
-### 1. Clone the repository
 ```bash
 git clone https://github.com/MrDiv01/UniversityLifeFront.git
 cd UniversityLifeFront
+npm install
+npm start
